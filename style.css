@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+article, aside, footer, header, main, nav, section {
+	display: block;
+}
+
+html, body, h1, h2, h3, ul, li, a, p, 
+article, aside, footer, header, main, nav, section {
+	padding: 0;
+	margin: 0;
+}
+
+.center {
+	padding: 180px 40px;
+	text-align: center;
+	}
+
+.banner {
+	background-color: #11233b;
+	color: white;
+	padding: 10px 20px;
+}
+
+body {
+	background-image: url("android.jpg");
+}
+
+#left {
+		margin-top: 200px;
+		margin-left: 120px;
+		padding:5px 15px; 
+		background:#ccc; 
+		border:0 none;
+		cursor:pointer;
+		-webkit-border-radius: 5px;
+		border-radius: 5px; 
+		float:left;
+}
+#up {
+		margin-top: 175px;
+		margin-left: 10px;
+		padding:5px 15px; 
+		background:#ccc; 
+		border:0 none;
+		cursor:pointer;
+		-webkit-border-radius: 5px;
+		border-radius: 5px; 
+}
+#down {
+		margin-top: 30px;
+		padding:5px 15px; 
+		background:#ccc; 
+		border:0 none;
+		cursor:pointer;
+		-webkit-border-radius: 5px;
+		border-radius: 5px; 
+		float:left;
+}
+
+#right {
+		margin-top: 2px;
+		padding:5px 15px; 
+		background:#ccc; 
+		border:0 none;
+		cursor:pointer;
+		-webkit-border-radius: 5px;
+		border-radius: 5px; 
+}
+
+#LT {
+		margin-top: 108px;
+		padding:5px 15px; 
+		background:#ccc; 
+		border:0 none;
+		cursor:pointer;
+		-webkit-border-radius: 5px;
+		border-radius: 5px; 
+		float:left;
+}
+
+video {
+		margin-top: -170px;
+		margin-left: 30px;
+}
+
+#back {
+		margin-left: 30px;
+		margin-top: 18px;
+		padding:5px 15px; 
+		background:#ccc; 
+		border:0 none;
+		cursor:pointer;
+		-webkit-border-radius: 5px;
+		border-radius: 5px; 
+		float:left;
+}
+
+#play {
+		margin-left: 350px;
+		margin-top: 18px;
+		padding:5px 15px; 
+		background:#ccc; 
+		border:0 none;
+		cursor:pointer;
+		-webkit-border-radius: 5px;
+		border-radius: 5px; 
+		float:left;
+}
+
+
+#RT {
+		margin-left: 20px;
+		margin-top: 18px;
+		padding:5px 15px; 
+		background:#ccc; 
+		border:0 none;
+		cursor:pointer;
+		-webkit-border-radius: 5px;
+		border-radius: 5px; 
+}
+
+#x {
+		margin-left: 630px;
+		margin-top: -155px;
+		padding:5px 15px; 
+		background:#ccc; 
+		border:0 none;
+		cursor:pointer;
+		-webkit-border-radius: 5px;
+		border-radius: 5px; 
+		float:left;
+}
+
+
+#y {
+		margin-top: -180px;
+		margin-left: 670px;
+		padding:5px 15px; 
+		background:#ccc; 
+		border:0 none;
+		cursor:pointer;
+		-webkit-border-radius: 5px;
+		border-radius: 5px; 
+		float:left;
+}
+
+#a {
+		margin-top: -130px;
+		margin-left: 670px;
+		padding:5px 15px; 
+		background:#ccc; 
+		border:0 none;
+		cursor:pointer;
+		-webkit-border-radius: 5px;
+		border-radius: 5px; 
+		float:left;
+}
+
+#b {
+		margin-top: -155px;
+		margin-left: 710px;
+		margin-bottom: 500px;
+		padding:5px 15px; 
+		background:#ccc; 
+		border:0 none;
+		cursor:pointer;
+		-webkit-border-radius: 5px;
+		border-radius: 5px; 
+		float:left;
+}
+
+footer {
+	clear: both;
+	background-color: #20416c;
+	color: white;
+	padding: 5px 20px;
+}

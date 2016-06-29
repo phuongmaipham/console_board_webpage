@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Game Consoller</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--[if lt IE 9]>
+	<script>
+		document.createElement("article");
+		document.createElement("aside");
+		document.createElement("footer");
+		document.createElement("header");
+		document.createElement("main");
+		document.createElement("nav");
+		document.createElement("section");
+	</script>
+	<![endif]-->
+</head>
+<body>
+	<header class="banner">
+		<h1> Game Controllers </h1>
+	</header>
+
+<!--play video 
+<embed type="application/x-vlc-plugin" pluginspage="http://www.videolan.org"
+version="VideoLAN.VLCPlugin.2"
+width="640"
+height="480"
+id="vlc"
+</embed>
+
+<script>
+var vlc = document.getElementById("vlc");
+vlc.playlist.add("rtsp://root:1234@10.0.50.101/axis-media/media.amp", "live",
+":network-caching=150");
+vlc.playlist.play();
+</script> 
+
+<video width="560" controls>
+	<source src="videos/myvideo.mp4" type="video/mp4">
+</video> -->
+
+<!--hide frame-->
+<style>
+	.hide { position:absolute; top:-1px; left:-1px; width:1px; height:1px; }
+</style>
+<iframe name="hiddenFrame" class="hide"></iframe>
+
+<!--left-->
+<form method="post" action="http://10.4.95.101/cgi-bin/motors_mini.cgi?s=turnleft" target="hiddenFrame">
+<input type="submit" namer="left" value="LEFT" id="left">
+</form>
+
+<!--up-->
+<form method="post" action="http://10.4.95.101/cgi-bin/motors_mini.cgi?s=forward" target="hiddenFrame">
+<input type="submit" name="up" value="UP" id="up">
+</form>
+
+<!--down-->
+<form method="post" action="http://10.4.95.101/cgi-bin/motors_mini.cgi?s=backward" target="hiddenFrame">
+<input type="submit" name="down" value="DOWN" id="down">
+</form>
+
+<!--right-->
+<form method="post" action="http://10.4.95.101/cgi-bin/motors_mini.cgi?s=turnright" target="hiddenFrame">
+<input type="submit" name="right" value="RIGHT" id="right">
+</form>
+
+<!--LT-->
+<form method="post" action="http://10.4.95.101/cgi-bin/cam.cgi" target="hiddenFrame">
+<input type="submit" name="take photo" value="TAKE PHOTO" id="LT">
+</form>
+
+<!--play video-->
+<video width="510" controls>
+	<!-- <source src="http://192.168.1.93/big_buck_bunny.mp4" type="video/mp4"> -->
+	<source src="http://10.4.95.101:8090" type="video/mp4">
+</video>
+
+<!--back-->
+<form method="post" action="http://10.4.95.101/test.jpg" target="_blank">
+<input type="submit" name="view photo" value="VIEW PHOTO" id="back">
+</form>
+
+<!--play-->
+<form method="post" action="http://192.168.1.93/test.jpg" target="_blank">
+<input type="submit" name="view photo" value="PLAY" id="play">
+</form>
+
+<!--RT-->
+<form method="post" action="http://10.4.95.101/cgi-bin/player.cgi" target="hiddenFrame">
+<input type="submit" name="activate camera" value="ACTIVATE CAMERA" id="RT">
+</form>
+
+<!--x-->
+<form method="post" action="http://10.4.95.101/cgi-bin/close_streamer.cgi" target="hiddenFrame">
+<input type="submit" name="x" value="X" id="x">
+</form>
+
+<!--y-->
+<form method="post" action="http://10.4.95.101/cgi-bin/close_streamer.cgi" target="hiddenFrame">
+<input type="submit" name="y" value="Y" id="y">
+</form>
+
+<!--a-->
+<form method="post" action="http://10.4.95.101/cgi-bin/close_streamer.cgi" target="hiddenFrame">
+<input type="submit" name="a" value="A" id="a">
+</form>
+
+<!--b-->
+<form method="post" action="http://10.4.95.101/cgi-bin/close_streamer.cgi" target="hiddenFrame">
+<input type="submit" name="b" value="B" id="b">
+</form>
+
+</body>
+
+<footer>
+	<p>Remote control Raspberry PI</p>
+</footer>
+
+</html>

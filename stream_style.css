@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+article, aside, footer, header, main, nav, section {
+	display: block;
+}
+
+html, body, h1, h2, h3, ul, li, a, p, 
+article, aside, footer, header, main, nav, section {
+	padding: 0;
+	margin: 0;
+}
+
+iframe {
+	-moz-transform: scale(0.25, 0.25); 
+	-webkit-transform: scale(0.25, 0.25); 
+	-o-transform: scale(0.25, 0.25);
+	-ms-transform: scale(0.25, 0.25);
+	transform: scale(0.25, 0.25); 
+	-moz-transform-origin: top left;
+	-webkit-transform-origin: top left;
+	-o-transform-origin: top left;
+	-ms-transform-origin: top left;
+	transform-origin: top left;
+}
+
+div.fill-screen {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	text-align: center;
+}
+
+img.make-it-fit {
+	max-width: 99%;
+	max-height: 99%;
+}
