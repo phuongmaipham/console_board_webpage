@@ -27,7 +27,7 @@ body {
 
 #left {
 		margin-top: 200px;
-		margin-left: 120px;
+		margin-left: 250px;
 		padding:5px 15px; 
 		background:#ccc; 
 		border:0 none;
@@ -68,7 +68,7 @@ body {
 }
 
 #LT {
-		margin-top: 108px;
+		margin-top: 73px;
 		padding:5px 15px; 
 		background:#ccc; 
 		border:0 none;
@@ -79,9 +79,13 @@ body {
 }
 
 video {
-		margin-top: -170px;
-		margin-left: 30px;
+		margin-top: -100px;
 }
+
+embed	{
+	margin-top: -301px;
+	margin-left: -270px;
+	}
 
 #back {
 		margin-left: 30px;
@@ -96,7 +100,7 @@ video {
 }
 
 #play {
-		margin-left: 350px;
+		margin-left: 150px;
 		margin-top: 18px;
 		padding:5px 15px; 
 		background:#ccc; 
@@ -120,8 +124,8 @@ video {
 }
 
 #x {
-		margin-left: 630px;
-		margin-top: -155px;
+		margin-left: 430px;
+		margin-top: -130px;
 		padding:5px 15px; 
 		background:#ccc; 
 		border:0 none;
@@ -133,8 +137,8 @@ video {
 
 
 #y {
-		margin-top: -180px;
-		margin-left: 670px;
+		margin-top: -160px;
+		margin-left: 480px;
 		padding:5px 15px; 
 		background:#ccc; 
 		border:0 none;
@@ -145,8 +149,8 @@ video {
 }
 
 #a {
-		margin-top: -130px;
-		margin-left: 670px;
+		margin-top: -100px;
+		margin-left: 480px;
 		padding:5px 15px; 
 		background:#ccc; 
 		border:0 none;
@@ -157,9 +161,9 @@ video {
 }
 
 #b {
-		margin-top: -155px;
-		margin-left: 710px;
-		margin-bottom: 500px;
+		margin-top: -130px;
+		margin-left: 530px;
+		margin-bottom: 600px;
 		padding:5px 15px; 
 		background:#ccc; 
 		border:0 none;

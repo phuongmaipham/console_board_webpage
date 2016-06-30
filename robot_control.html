@@ -72,11 +72,21 @@ vlc.playlist.play();
 </form>
 
 <!--play video-->
-<video width="510" controls>
-	<!-- <source src="http://192.168.1.93/big_buck_bunny.mp4" type="video/mp4"> -->
-	<source src="http://10.4.95.101:8090" type="video/mp4">
+<video src="rtsp://10.4.95.101:8090/">
+ Your browser does not support the VIDEO tag and/or RTP streams.
 </video>
-
+<embed type="application/x-vlc-plugin" pluginspage="http://www.videolan.org" target="rtsp://10.4.95.101:8090/" />
+<!--
+<video width="510" controls>
+ 	  <source src="http://10.4.95.99/big_buck_bunny.mp4" type="video/mp4"> 
+		 <source src="rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov"> 
+</video>
+-->
+<!--
+<video width="510" controls>
+ 	 <source src="rtsp://10.4.95.101:8090/"> 
+</video>
+-->
 <!--back-->
 <form method="post" action="http://10.4.95.101/test.jpg" target="_blank">
 <input type="submit" name="view photo" value="VIEW PHOTO" id="back">
